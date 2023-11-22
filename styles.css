@@ -1,0 +1,144 @@
+.bg-color {
+  background-color: #EAEAEA;
+  color: #000000;
+}
+
+.bg-nav-color {
+  background-color: #2E5C63;
+  color: #ffffff;
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-image-1 {
+  background-image: url("image/392822020_705451191603885_1823499722228184923_n.jpg");
+  background-size: cover;
+}
+.carousel-image-2 {
+  background-image: url("image/All_New_Design_2023_herman_guitar_1379.jpg");
+  background-size: cover;
+}
+.carousel-image-3 {
+  background-image: url("image/351017766_643611020589331_2693112701623601328_n.jpg");
+  background-size: cover;
+}
+
+.main-picture-control {
+  width: 1385px;
+  height: 650px;
+  border-radius: 15px;
+  border: 1px solid #000000;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.00) 20.31%, rgba(0, 0, 0, 0.45) 53.65%, rgba(0, 0, 0, 0.83) 100%), url(<path-to-image>), lightgray 0px -114.125px / 103.971% 138.42% no-repeat;
+  box-shadow: 0px 0px 35px 50px rgba(0, 0, 0, 0.25) inset;
+}
+
+.main-picture-Link-1 {
+  background-image: url("/image/All_New_Design_2023_herman_guitar_1379.jpg");
+  background-size: cover;
+}
+
+.main-picture-Link-2 {
+  background-image: url("/image/351017766_643611020589331_2693112701623601328_n.jpg");
+  background-size: cover;
+}
+
+.position-text1 {
+  font-size: 96px;
+  text-align: right;
+  padding-top: 200px;
+  padding-right: 200px;
+}
+
+.position-text2 {
+  font-size: 96px;
+  text-align: right;
+  padding-top: 0px;
+  padding-right: 339px;
+}
+
+.seemore-contorl {
+  font-size: 32px;
+  text-align: right;
+  padding-top: 0px;
+  padding-right: 230px;
+}
+
+.position-text3 {
+  font-size: 96px;
+  text-align: left;
+  padding-top: 300px;
+  padding-left: 200px;
+}
+
+.position-text4 {
+  font-size: 96px;
+  text-align: left;
+  padding-top: 0px;
+  padding-left: 200px;
+}
+
+.seemore-contorl1 {
+  font-size: 32px;
+  text-align: left;
+  padding-top: 0px;
+  padding-left: 200px;
+}
+
+.card {
+  height: 497px;
+}
+
+.card-contorl{
+  border-radius: 15px;
+}
+
+
+.card-image-1 {
+  background-image: url(/image/card1.jpg);
+  background-size: cover;
+}
+
+.card-image-2 {
+  background-image: url(/image/card2.jpg);
+  background-size: cover;
+}
+
+.card-image-3 {
+  background-image: url(/image/card3.jpg);
+  background-size: cover;
+}
+
+.card-image-4 {
+  background-image: url(/image/card4.jpg);
+  background-size: cover;
+}
+
+.card-image-5 {
+  background-image: url(/image/card5.jpg);
+  background-size: cover;
+}
+
+.card-image-6 {
+  background-image: url(/image/card6.jpg);
+  background-size: cover;
+}
+
+.text-positions-title {
+  font-size: 20px;
+  padding-top: 350px;
+}
+
+a.no-underline {
+  text-decoration: none;
+}
+
+footer {
+  background-color: #2E5C63;
+  color: #ffffff;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
