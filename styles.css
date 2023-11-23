@@ -9,7 +9,7 @@
 }
 
 .carousel-item {
-  height: 500px;
+  height: 700px;
 }
 
 .carousel-image-1 {
@@ -26,7 +26,6 @@
 }
 
 .main-picture-control {
-  width: 1385px;
   height: 650px;
   border-radius: 15px;
   border: 1px solid #000000;
