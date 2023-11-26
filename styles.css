@@ -58,6 +58,11 @@
   background-size: cover;
 }
 
+.herman-Logo {
+  width: 50%; /* กำหนดความกว้างของรูปภาพเป็น 50% ของขนาดเดิม */
+  height: auto; /* รักษาอัตราส่วนของรูปภาพ */
+}
+
 .position-text1 {
   font-size: 96px;
   text-align: right;
