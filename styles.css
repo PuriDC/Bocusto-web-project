@@ -10,6 +10,14 @@
   color: #ffffff;
 }
 
+@media (max-width: 992px) {
+  .navbar-nav .nav-link {
+    white-space: nowrap; /* ให้ป้องกันการขึ้นบรรทัดใหม่ */
+  }
+}
+
+
+
 .carousel-item {
   height: 700px;
 }
@@ -42,6 +50,11 @@
 
 .main-picture-Link-2 {
   background-image: url("/image/351017766_643611020589331_2693112701623601328_n.jpg");
+  background-size: cover;
+}
+
+.card-picture-1 {
+  background-image: url("/image/Guitar\ main.jpg");
   background-size: cover;
 }
 
@@ -89,6 +102,12 @@
 
 .card {
   height: 497px;
+  border-radius: 15px;
+}
+
+#cardContorl {
+  height: 650px;
+  
 }
 
 .card-contorl{

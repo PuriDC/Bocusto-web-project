@@ -8,50 +8,56 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 <link rel="stylesheet" href="/styles.css">
+<link rel="scripts" href="/script.js">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 <title>Hello, world!</title>
 </head>
 
 
 <body>
-  <div class="d-flex justify-content-center bg-nav-color">
-    <a href="index.html" class="navbar-brand">
-      <img src="/image/LogoWeb (3).png" alt="Logo" class="img-fluid">
-    </a>
-    <button class="navbar-toggler" data-bs-toggler="collapse" data-bs-target="#navbar1">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-  </div>
-    <div class="bg-color">
+  <div class="bg-color">
+    <div class="d-flex justify-content-center bg-nav-color">
+      <a href="index.html" class="navbar-brand">
+        <img src="/image/LogoWeb (3).png" alt="Logo" class="img-fluid">
+      </a>
+    </div>
     <!--menu navbar-->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-nav-color">
-        <div class="container">
-            <div id="navbar1" class="collapse navbar-collapse justify-content-center">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/Bocusto_page.html" class="nav-link">BOCUSTO GUITAR</a> 
-                    </li>
-                    <li class="nav-item">
-                        <a href="/Herman_page.html" class="nav-link">HERMAN GUITAR</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">LUTHIER SUPPLIES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">SECOND-HAND GUITAR</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">ACCESSORIES</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#" class="nav-link">LEARNING</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#" class="nav-link">MORE</a>
-                    </li>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-nav-color ">
+      <div class="container">
+          <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar1">
+              <ul class="navbar-nav mx-auto ">
+                  <!-- เมนูที่ต้องการใส่ไว้ที่นี่ -->                  
+                    <div id="navbar1" class="collapse navbar-collapse text-center ">
+                        <ul class="navbar-nav text-nowrap">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/Bocusto_page.html" class="nav-link">BOCUSTO GUITAR</a> 
+                            </li>
+                            <li class="nav-item">
+                                <a href="/Herman_page.html" class="nav-link">HERMAN GUITAR</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/Luthier_page.html" class="nav-link">LUTHIER SUPPLIES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/SecondHand_page.html" class="nav-link">SECOND-HAND GUITAR</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/Accessories_page.html" class="nav-link">ACCESSORIES</a>
+                            </li>
+                            <li class="nav-item">
+                              <a href="/Learn_page.html" class="nav-link">LEARNING</a>
+                            </li>
+                            <li class="nav-item">
+                              <a href="/" class="nav-link">MORE</a>
+                            </li>
+                        </ul>
+                    </div>              
                 </ul>
             </div>
         </div>
@@ -104,32 +110,27 @@
     <!--start card-->
     <section id="main-picture">
       <div class="container">
-        <div class="card" style="height: 650px;">
+        <div class="card " id="cardContorl">
             <div class="card-body">
-                <div class="d-flex main-picture-Link-2 align-items-center card-img-overlay ">
-                  <img src="/image/LogoWeb (2).png" alt="Logo" class="img-fluid " style="padding-left: 70px;">
-                </div>
-                  <div class="link">
-                  <a href="#" class="text-light">Go somewhere</a>
-                  </div>
+                <div class="d-flex card-picture-1 align-items-center card-img-overlay ">
+                  <img src="/image/LogoWeb (2).png" alt="Logo" class="img-fluid " style="padding-left: 70px;">                 
+                </div> 
+                <div class="link seemore-control">
+                  <a href="#" class="text-white">SEE MORE</a>
+                </div>              
             </div>
-        </div>
+        </div><br>
+        <div class="card" id="cardContorl">
+          <div class="card-body">
+              <div class="d-flex card-picture-1 align-items-center card-img-overlay ">
+                <img src="/image/LogoWeb (2).png" alt="Logo" class="img-fluid " style="padding-left: 70px;">                 
+              </div> 
+              <div class="link seemore-control">
+                <a href="#" class="text-white">SEE MORE</a>
+              </div>              
+          </div>
+      </div>
     </div>
-        <div class="main-picture-control main-caption main-picture-Link-1 container">
-            <h1 class="text-white position-text1 text">HERMAN</h1>
-            <h1 class="text-white position-text2">Guitar</h1>
-            <div class="link seemore-contorl">
-                <a href="index.html" class="text-white seemore-contorl">SEE MORE</a>
-            </div>          
-        </div>
-        <br>
-        <div class="main-picture-control main-picture-Link-2 container">
-            <h1 class="text-white position-text3 text">HERMAN</h1>
-            <h1 class="text-white position-text4">Guitar</h1>
-            <div class="link seemore-contorl1">
-                <a href="index.html" class="text-white seemore-contorl">SEE MORE</a>
-            </div>          
-        </div>
     </section>
     <br>
     <div class="text-black text-center">
